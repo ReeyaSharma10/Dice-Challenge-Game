@@ -1,0 +1,39 @@
+
+body{
+    /* page bg color*/
+    background-color: aquamarine;
+
+}
+
+*{
+    /* Deleting Extra padding and margin*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.container{
+    /* adjust center on the page*/
+    width: 70;
+    margin: auto;
+    text-align: center;
+}
+.dice{
+    /* putting dice as a menu on page*/
+    text-align: center;
+    display: inline-block;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+button{
+    padding: 1%;
+    background: rgb(217, 201, 213);
+}
+
+img{
+    /* Resize Image */
+    width: 70%;
+}
