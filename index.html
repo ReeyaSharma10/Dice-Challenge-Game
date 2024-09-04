@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Adding a External css file to this html file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Set title for the file-->
+    <title>Dice Roll Game</title>
+
+    <!-- Adding a Font from online -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Calling A External JS file -->
+    <script src="script.js"></script>
+
+    <!-- Creating a Container for Heading, dice image, player and headding -->
+    <div class="container">
+        <h1>DICE ROLL GAME</h1>
+
+        <!--Creating a dice class for Player 1-->
+        <div class="dice">
+            <p>PLAYER 1</p>
+            <img src="assets/dice1.png" id="check1"> <!-- Giving an id to check '1' -->
+        </div>
+
+        <!--Creating a dice class for Player 2-->
+        <div class="dice">
+            <p>PLAYER 2</p>
+            <img src="assets/dice1.png" id="check2">            
+        </div>
+        
+        <!-- Creating a button-->
+        <div>
+            <button onclick="suffle()"> Click Me to roll dice </button>
+        </div>
+
+    </div>   
+    <p>© Reeya Sharma.</p>
+       
+</body>
+</html>
